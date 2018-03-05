@@ -2,7 +2,11 @@
 
 ภาษา, Framework, Library ที่จะใช้ : Kotlin
 
+kotlinVersion = '1.2.20'
+springBootVersion = '1.5.10.RELEASE'
+
 ชื่อตัวแปร : testOnClick (Lower Camel Case)
+ชื่อคลาส : HelloWorld (Upper Camel Case)
 
 * การเว้นบรรทัด : 
 	* Import จะเว้นทีละบรรทัด ไม่มีบรรทัดว่าง
