@@ -44,5 +44,6 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
 	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
 	compile("org.springframework.boot:spring-boot-devtools")
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.+'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
