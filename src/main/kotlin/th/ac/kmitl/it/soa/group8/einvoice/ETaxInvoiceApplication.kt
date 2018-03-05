@@ -9,8 +9,8 @@ import org.springframework.context.annotation.ComponentScan
 @SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan
-class EInvoiceApp
+class ETaxInvoiceApplication
 
     fun main(args: Array<String>) {
-        SpringApplication.run(EInvoiceApp::class.java, *args)
+        SpringApplication.run(ETaxInvoiceApplication::class.java, *args)
     }
