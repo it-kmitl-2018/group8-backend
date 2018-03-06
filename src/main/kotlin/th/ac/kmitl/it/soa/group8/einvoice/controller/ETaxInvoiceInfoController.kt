@@ -6,7 +6,7 @@ import th.ac.kmitl.it.soa.group8.einvoice.model.ETaxInvoiceInfo
 
 @RestController
 @RequestMapping("/etaxinvoice")
-class ETaxInvoiceFormController {
+class ETaxInvoiceInfoController {
 
     @GetMapping("/")
     fun get(): ETaxInvoiceInfo {
