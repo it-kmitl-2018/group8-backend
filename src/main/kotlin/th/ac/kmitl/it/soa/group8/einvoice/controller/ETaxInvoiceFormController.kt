@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*
 import th.ac.kmitl.it.soa.group8.einvoice.model.ETaxInvoiceInfo
 
 @RestController
-@RequestMapping("/etaxinvoiceform")
+@RequestMapping("/etaxinvoice")
 class ETaxInvoiceFormController {
 
     @GetMapping("/")
