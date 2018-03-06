@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.model
+package th.ac.kmitl.it.soa.group8.einvoice.model
 
 data class ETaxInvoiceInfo(val guidelineSpecifiedID: String,
                            val documentId: String,
