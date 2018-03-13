@@ -10,8 +10,8 @@ class ETaxInvoiceInfoController {
 
     @GetMapping("/")
     fun get(): ETaxInvoice {
-        var invoiceFormModel = ETaxInvoice("0", "0", "Example", "Unknown", "05/03/2661 12:30",
-                "Unknown", "0", "0", "06/03/2661 12:00", "", "")
+        var invoiceFormModel = ETaxInvoice("Veronika Ilithyia", "123 New york", "Radhika Seetha", "54345 Thailand", "Car part",
+                12345)
         return invoiceFormModel
     }
 
