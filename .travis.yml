@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+- oraclejdk8
+
+sudo: required
+
+install: true
+
+script:
+ - chmod +x ./gradlew
+ - ./gradlew build
