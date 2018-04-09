@@ -21,7 +21,6 @@ class JsonConverterTest {
                 "456 rama 9 road",
                 "product1",
                 1200)
-        converter.convertObjectToJson(taxInvoice)
-        assertEquals("Bob", converter.convertJsontoObject().buyer)
+        assertEquals("Bob",converter.convertJsontoObject())
     }
 }
