@@ -1,6 +1,8 @@
 package th.ac.kmitl.it.soa.group8.einvoice
 
-import junit.framework.Assert.assertEquals
+
+
+import junit.framework.TestCase.assertEquals
 import sun.plugin2.util.PojoUtil.toJson
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder.json
 import org.assertj.core.api.Assertions
@@ -20,6 +22,6 @@ class JsonConverterTest {
                 "product1",
                 1200)
         converter.convertObjectToJson(taxInvoice)
-        assertEquals(taxInvoice, converter.convertJsontoObject(taxInvoice))
+        assertEquals("Bob", converter.convertJsontoObject().buyer)
     }
 }

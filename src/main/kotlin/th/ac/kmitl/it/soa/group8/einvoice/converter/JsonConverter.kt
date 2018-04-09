@@ -16,7 +16,7 @@ open class JsonConverter (){
         mapper.writeValue(File("tax_invoice.json"), `object`)
     }
 
-    fun convertJsontoObject(`object`: Any): ETaxInvoice {
+    fun convertJsontoObject(): ETaxInvoice {
         val mapper = ObjectMapper()
         val tax = mapper.readValue(File("tax_invoice.json"), ETaxInvoice::class.java)
         return tax
