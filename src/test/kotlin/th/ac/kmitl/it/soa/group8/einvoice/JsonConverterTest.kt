@@ -20,8 +20,6 @@ class JsonConverterTest {
                 "product1",
                 1200)
         converter.convertObjectToJson(taxInvoice)
-
-
         assertEquals(taxInvoice, converter.convertJsontoObject(taxInvoice))
     }
 }
