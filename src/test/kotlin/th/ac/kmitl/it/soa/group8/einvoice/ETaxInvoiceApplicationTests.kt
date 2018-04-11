@@ -10,10 +10,7 @@ import java.net.URL
 class ETaxInvoiceApplicationTests {
     @Test
     fun testHomeController() {
-        val webDriver = ChromeDriver()
-        webDriver.navigate().to(URL("http://localhost:8888/home/hello"))
-        Thread.sleep(5000)
-        webDriver.quit()
+        //TODO
     }
 
 }
