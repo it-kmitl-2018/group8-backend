@@ -10,6 +10,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
 import th.ac.kmitl.it.soa.group8.einvoice.model.ETaxInvoice
 import com.google.gson.Gson
 import org.springframework.http.MediaType.APPLICATION_JSON
+import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath
 
 @RunWith(SpringJUnit4ClassRunner::class)
 class ETaxInvoiceApplicationTests {
@@ -41,7 +42,7 @@ class ETaxInvoiceApplicationTests {
         val gson = Gson()
         val eTaxInvoiceForm = gson.toJson(eTaxInvoice)
         mockMvc?.perform(post("/etaxinvoice/").contentType(APPLICATION_JSON)
-                .content(eTaxInvoiceForm))?.andExpect(status().isOk)
+                .content(eTaxInvoiceForm))?.andExpect(status().isOk)?.andExpect(jsonPath("$.data").value(eTaxInvoiceForm))
     }
 
 }
