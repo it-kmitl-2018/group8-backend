@@ -6,49 +6,49 @@ import th.ac.kmitl.it.soa.group8.einvoice.model.PostalTradeAddressModel
 
 class PostalTradeAddressModelTest {
     val postCode: String = "10310"
-    val buildingName: String = "Chaiyaporn1"
-    val houseNumber: String = "99/2546"
-    val suiteNumber: String = "Room 602 6th Floor"
-    val soi: String = "Kekki Ngam1"
-    val village: String = "Kekki"
-    val moo: String = "3"
-    val streetName: String = "Chalongkung"
-    val cityName: String = "1017"
-    val citySubDivisionName: String = "Latkrabang"
+    val building: String = "Chaiyaporn1"
+    val addressLineOne: String = "99/2546"
+    val addressLineTwo: String = "Room 602 6th Floor"
+    val addressLineThree: String = "Kekki Ngam1"
+    val addressLineFour: String = "Kekki"
+    val addressLineFive: String = "3"
+    val street: String = "Chalongkung"
+    val district: String = "1017"
+    val subDistrict: String = "Latkrabang"
     val countryID: String = "TH"
-    val countrySubDivisionID: String = "10"
-    val buildingNumber: String = "3/34"
+    val provinceID: String = "10"
+    val houseNumber: String = "3/34"
     val postalTradeAddressModel = PostalTradeAddressModel(
             this.postCode,
-            this.buildingName,
-            this.houseNumber,
-            this.suiteNumber,
-            this.soi,
-            this.village,
-            this.moo,
-            this.streetName,
-            this.cityName,
-            this.citySubDivisionName,
+            this.building,
+            this.addressLineOne,
+            this.addressLineTwo,
+            this.addressLineThree,
+            this.addressLineFour,
+            this.addressLineFive,
+            this.street,
+            this.district,
+            this.subDistrict,
             this.countryID,
-            this.countrySubDivisionID,
-            this.buildingNumber
+            this.provinceID,
+            this.houseNumber
     )
 
     @Test
     fun testGetAllInfo() {
         assertEquals(this.postCode, postalTradeAddressModel.postCode)
-        assertEquals(this.buildingName, postalTradeAddressModel.buildingName)
-        assertEquals(this.houseNumber, postalTradeAddressModel.houseNumber)
-        assertEquals(this.suiteNumber, postalTradeAddressModel.suiteNumber)
-        assertEquals(this.soi, postalTradeAddressModel.soi)
-        assertEquals(this.village, postalTradeAddressModel.village)
-        assertEquals(this.moo, postalTradeAddressModel.moo)
-        assertEquals(this.streetName, postalTradeAddressModel.streetName)
-        assertEquals(this.cityName, postalTradeAddressModel.cityName)
-        assertEquals(this.citySubDivisionName, postalTradeAddressModel.citySubDivisionName)
+        assertEquals(this.building, postalTradeAddressModel.building)
+        assertEquals(this.addressLineOne, postalTradeAddressModel.addressLineOne)
+        assertEquals(this.addressLineTwo, postalTradeAddressModel.addressLineTwo)
+        assertEquals(this.addressLineThree, postalTradeAddressModel.addressLineThree)
+        assertEquals(this.addressLineFour, postalTradeAddressModel.addressLineFour)
+        assertEquals(this.addressLineFive, postalTradeAddressModel.addressLineFive)
+        assertEquals(this.street, postalTradeAddressModel.street)
+        assertEquals(this.district, postalTradeAddressModel.district)
+        assertEquals(this.subDistrict, postalTradeAddressModel.subDistrict)
         assertEquals(this.countryID, postalTradeAddressModel.countryID)
-        assertEquals(this.countrySubDivisionID, postalTradeAddressModel.countrySubDivisionID);
-        assertEquals(this.buildingNumber, postalTradeAddressModel.buildingNumber);
+        assertEquals(this.provinceID, postalTradeAddressModel.provinceID);
+        assertEquals(this.houseNumber, postalTradeAddressModel.houseNumber);
     }
 
 }

@@ -2,17 +2,17 @@ package th.ac.kmitl.it.soa.group8.einvoice.model
 
 data class PostalTradeAddressModel(
         val postCode: String = "",
-        val buildingName: String = "",
-        val houseNumber: String = "",
-        val suiteNumber: String = "",
-        val soi: String = "",
-        val village: String = "",
-        val moo: String = "",
-        val streetName: String = "",
-        val cityName: String = "",
-        val citySubDivisionName: String = "",
+        val building: String = "",
+        val addressLineOne: String = "",
+        val addressLineTwo: String = "",
+        val addressLineThree: String = "",
+        val addressLineFour: String = "",
+        val addressLineFive: String = "",
+        val street: String = "",
+        val district: String = "",
+        val subDistrict: String = "",
         val countryID: String = "",
-        val countrySubDivisionID: String = "",
-        val buildingNumber: String = ""
+        val provinceID: String = "",
+        val houseNumber: String = ""
 
 )
