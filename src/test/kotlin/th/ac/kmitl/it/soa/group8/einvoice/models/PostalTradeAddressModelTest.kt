@@ -8,6 +8,7 @@ import java.io.StringWriter
 import javax.xml.bind.JAXBContext
 
 class PostalTradeAddressModelTest {
+
     private val postCode: String = "10310"
     private val building: String = "Chaiyaporn1"
     private val addressLineOne: String = "99/2546"
