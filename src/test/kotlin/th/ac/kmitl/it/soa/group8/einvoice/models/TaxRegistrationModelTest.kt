@@ -2,17 +2,17 @@ package th.ac.kmitl.it.soa.group8.einvoice.models
 
 import com.thoughtworks.selenium.SeleneseTestBase.assertEquals
 import org.junit.Test
-import th.ac.kmitl.it.soa.group8.einvoice.model.SpecifiedTaxRegistrationModel
+import th.ac.kmitl.it.soa.group8.einvoice.model.TaxRegistrationModel
 
-class SpecifiedTaxRegistrationModelTest {
+class TaxRegistrationModelTest {
     val taxID: String = "1234567890123"
-    val specifiedTaxRegistration = SpecifiedTaxRegistrationModel(
+    val taxRegistration = TaxRegistrationModel(
             this.taxID
     )
 
     @Test
     fun testGetAllInfo() {
-        assertEquals(this.taxID, specifiedTaxRegistration.taxID)
+        assertEquals(this.taxID, taxRegistration.taxID)
 
     }
 }

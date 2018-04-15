@@ -1,5 +1,5 @@
 package th.ac.kmitl.it.soa.group8.einvoice.model
 
- data class SpecifiedTaxRegistrationModel (
+ data class TaxRegistrationModel (
     val taxID: String = ""
  )
