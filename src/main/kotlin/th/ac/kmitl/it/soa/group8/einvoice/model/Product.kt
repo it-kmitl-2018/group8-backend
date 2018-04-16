@@ -8,7 +8,7 @@ data class Product (val id: String,
                     val expiryDateTime: String,
                     val classCode: String,
                     val className: String,
-                    val originId: String,
+                    val originCountryId: String,
                     val noteSubject: String,
                     val noteContent: String
 )
