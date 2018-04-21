@@ -1,5 +1,6 @@
 package th.ac.kmitl.it.soa.group8.einvoice.models
 
+import com.google.gson.GsonBuilder
 import com.thoughtworks.selenium.SeleneseTestBase.assertEquals
 import junit.framework.Assert.assertNotNull
 import org.junit.Test
@@ -63,6 +64,14 @@ class PostalTradeAddressModelTest {
         marshaller.marshal(postalTradeAddressModel, stringWriter)
         val xmlString = stringWriter.toString()
         assertNotNull(xmlString)
+    }
+
+    @Test
+    fun testGetJSON() {
+        val builder = GsonBuilder()
+        val gson = builder.create()
+        val json = gson.toJson(postalTradeAddressModel)
+        assertNotNull(json)
     }
 
 }
