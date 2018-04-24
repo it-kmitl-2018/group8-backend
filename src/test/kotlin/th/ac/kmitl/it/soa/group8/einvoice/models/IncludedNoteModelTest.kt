@@ -4,7 +4,7 @@ import com.thoughtworks.selenium.SeleneseTestBase.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner
-import th.ac.kmitl.it.soa.group8.einvoice.model.IncludedNoteModel
+import th.ac.kmitl.it.soa.group8.e_tax_invoice.model.IncludedNoteModel
 
 @RunWith(SpringJUnit4ClassRunner::class)
 class IncludedNoteModelTest {
