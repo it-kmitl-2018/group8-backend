@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.einvoice.model
+package th.ac.kmitl.it.soa.group8.e_tax_invoice.model
 
 data class TradePartyModel (
         val id: String = "",
