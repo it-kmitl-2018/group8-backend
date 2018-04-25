@@ -7,7 +7,7 @@ import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
-import th.ac.kmitl.it.soa.group8.e_tax_invoice.model.ETaxInvoice
+import th.ac.kmitl.it.soa.group8.model.ETaxInvoice
 import com.google.gson.Gson
 import org.springframework.http.MediaType.APPLICATION_JSON
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath

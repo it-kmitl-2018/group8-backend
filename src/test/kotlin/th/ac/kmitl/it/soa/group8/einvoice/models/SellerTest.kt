@@ -2,7 +2,7 @@ package th.ac.kmitl.it.soa.group8.einvoice.models
 
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
-import th.ac.kmitl.it.soa.group8.e_tax_invoice.model.Seller
+import th.ac.kmitl.it.soa.group8.model.Seller
 
 class SellerTest {
     @Test
