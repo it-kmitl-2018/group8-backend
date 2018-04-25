@@ -3,7 +3,7 @@ package th.ac.kmitl.it.soa.group8.einvoice.models
 import com.thoughtworks.selenium.SeleneseTestBase.assertEquals
 import junit.framework.Assert.assertNotNull
 import org.junit.Test
-import th.ac.kmitl.it.soa.group8.e_tax_invoice.model.PostalTradeAddressModel
+import th.ac.kmitl.it.soa.group8.model.PostalTradeAddressModel
 import java.io.StringWriter
 import javax.xml.bind.JAXBContext
 
