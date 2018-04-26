@@ -1,8 +1,8 @@
-package th.ac.kmitl.it.soa.group8.einvoice.controller
+package th.ac.kmitl.it.soa.group8.e_tax_invoice.controller
 
 import com.google.gson.Gson
 import org.springframework.web.bind.annotation.*
-import th.ac.kmitl.it.soa.group8.einvoice.model.ETaxInvoice
+import th.ac.kmitl.it.soa.group8.e_tax_invoice.model.ETaxInvoice
 
 @RestController
 @RequestMapping("/etaxinvoice")
