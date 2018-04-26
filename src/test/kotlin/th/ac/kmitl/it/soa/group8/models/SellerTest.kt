@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.einvoice.models
+package th.ac.kmitl.it.soa.group8.models
 
 import junit.framework.TestCase.assertEquals
 import org.junit.Test

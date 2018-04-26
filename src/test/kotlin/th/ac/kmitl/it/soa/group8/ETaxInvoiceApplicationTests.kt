@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.einvoice
+package th.ac.kmitl.it.soa.group8
 
 import org.junit.Test
 import org.junit.runner.RunWith
