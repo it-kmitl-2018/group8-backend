@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.e_tax_invoice.model
+package th.ac.kmitl.it.soa.group8.model
 
  data class TradeContactModel (
          val personName: String = "",
