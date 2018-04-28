@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.e_tax_invoice.model
+package th.ac.kmitl.it.soa.group8.model
 
 import javax.xml.bind.annotation.XmlAccessType
 import javax.xml.bind.annotation.XmlAccessorType
