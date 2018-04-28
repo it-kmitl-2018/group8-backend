@@ -1,9 +1,9 @@
-package th.ac.kmitl.it.soa.group8.einvoice.models
+package th.ac.kmitl.it.soa.group8.models
 
 import com.thoughtworks.selenium.SeleneseTestBase.assertEquals
 import junit.framework.Assert.assertNotNull
 import org.junit.Test
-import th.ac.kmitl.it.soa.group8.e_tax_invoice.model.TradeContactModel
+import th.ac.kmitl.it.soa.group8.model.TradeContactModel
 import java.io.StringWriter
 import javax.xml.bind.JAXBContext
 

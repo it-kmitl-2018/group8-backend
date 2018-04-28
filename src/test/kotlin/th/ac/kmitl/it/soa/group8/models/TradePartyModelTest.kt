@@ -1,8 +1,8 @@
-package th.ac.kmitl.it.soa.group8.einvoice.models
+package th.ac.kmitl.it.soa.group8.models
 
 import com.thoughtworks.selenium.SeleneseTestBase.assertEquals
 import org.junit.Test
-import th.ac.kmitl.it.soa.group8.e_tax_invoice.model.TradePartyModel
+import th.ac.kmitl.it.soa.group8.model.TradePartyModel
 
 class TradePartyModelTest {
     val id: String = "01"
