@@ -1,8 +1,8 @@
-package th.ac.kmitl.it.soa.group8.einvoice.models
+package th.ac.kmitl.it.soa.group8.models
 
 import com.thoughtworks.selenium.SeleneseTestBase.assertEquals
 import org.junit.Test
-import th.ac.kmitl.it.soa.group8.einvoice.model.TelephoneUniversalModel
+import th.ac.kmitl.it.soa.group8.model.TelephoneUniversalModel
 
 class TelephoneUniversalModelTest {
     val phoneNumber: String = "0888888888"
