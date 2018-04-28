@@ -1,5 +1,5 @@
 //Spring boot example, Will not use this file
-package th.ac.kmitl.it.soa.group8.e_tax_invoice
+package th.ac.kmitl.it.soa.group8
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
