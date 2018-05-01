@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement
 
 @XmlRootElement(name = "ram:SpecifiedTaxRegistration")
 @XmlAccessorType(XmlAccessType.FIELD)
-data class TaxRegistrationModel (
+data class TaxXMLConverter (
 
         @field:XmlElement(name = "ram:ID")
         val taxID: String = ""
