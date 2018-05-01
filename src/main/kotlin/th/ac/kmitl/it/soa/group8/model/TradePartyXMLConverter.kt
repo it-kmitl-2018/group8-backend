@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement
 
 @XmlRootElement(name = "ram:PayerTradeParty")
 @XmlAccessorType(XmlAccessType.FIELD)
-data class TradePartyModel (
+data class TradePartyXMLConverter (
 
         @field:XmlElement(name = "ram:ID")
         val id: String = "",
