@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement
 
 @XmlRootElement(name = "ram:DefinedTradeContact")
 @XmlAccessorType(XmlAccessType.FIELD)
-data class TradeContactModel (
+data class TradeContactXMLConverter (
 
     @field:XmlElement(name = "ram:PersonName")
     val personName: String = "",
