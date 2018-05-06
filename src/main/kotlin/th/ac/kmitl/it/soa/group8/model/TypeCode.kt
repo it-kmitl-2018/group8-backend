@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.einvoice.model
+package th.ac.kmitl.it.soa.group8.model
 
 enum class TypeCode(val typeCode: kotlin.String, val description: kotlin.String ) {
     DEBIT_NOTE("80", "ใบเพิ่มหนี้ (Debit note)"),

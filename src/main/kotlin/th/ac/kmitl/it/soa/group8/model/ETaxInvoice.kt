@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.einvoice.model
+package th.ac.kmitl.it.soa.group8.model
 
 data class ETaxInvoice(val buyer: String,
                        val buyerAddress: String,

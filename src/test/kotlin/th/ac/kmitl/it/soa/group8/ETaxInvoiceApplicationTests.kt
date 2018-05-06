@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.einvoice
+package th.ac.kmitl.it.soa.group8
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
-import th.ac.kmitl.it.soa.group8.einvoice.model.ETaxInvoice
+import th.ac.kmitl.it.soa.group8.model.ETaxInvoice
 import com.google.gson.Gson
 import org.springframework.http.MediaType.APPLICATION_JSON
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath
