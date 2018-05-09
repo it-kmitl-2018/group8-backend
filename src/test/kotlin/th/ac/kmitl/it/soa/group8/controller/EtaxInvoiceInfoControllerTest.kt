@@ -33,16 +33,19 @@ class ETaxInvoiceApplicationTests {
         )
         val gson = Gson()
         val eTaxInvoiceForm = gson.toJson(eTaxInvoice) //Create json to sent to controller
-        mockMvc?.perform(MockMvcRequestBuilders.post("/etaxinvoice/").contentType(MediaType.APPLICATION_JSON)
-                .content(eTaxInvoiceForm))?.andExpect(MockMvcResultMatchers.status().isOk)?.andExpect(MockMvcResultMatchers.
-                jsonPath("$.data").value(eTaxInvoiceForm))
+        mockMvc?.perform(MockMvcRequestBuilders.post("/etaxinvoice/")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(eTaxInvoiceForm))
+                ?.andExpect(MockMvcResultMatchers.status().isOk)
+                ?.andExpect(MockMvcResultMatchers.jsonPath("$.data").value(eTaxInvoiceForm))
     }
 
     @Test
     @Throws(Exception::class)
     fun getETaxInvoice() {
-        mockMvc?.perform(MockMvcRequestBuilders.get("/etaxinvoice/"))?.andExpect(MockMvcResultMatchers.
-                status().isOk)
+        mockMvc?.perform(MockMvcRequestBuilders
+                .get("/etaxinvoice/"))
+                ?.andExpect(MockMvcResultMatchers.status().isOk)
     }
 
 }
