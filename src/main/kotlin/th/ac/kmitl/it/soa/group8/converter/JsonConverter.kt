@@ -5,9 +5,9 @@ import java.io.IOException
 import com.fasterxml.jackson.core.JsonGenerationException
 import com.fasterxml.jackson.databind.JsonMappingException
 import com.fasterxml.jackson.databind.ObjectMapper
-import org.json.simple.parser.JSONParser
 import org.json.simple.JSONObject
-import th.ac.kmitl.it.soa.group8.model.Seller
+import org.json.simple.parser.JSONParser
+
 import java.io.FileReader
 
 open class JsonConverter (){
