@@ -5,7 +5,6 @@ import java.io.IOException
 import com.fasterxml.jackson.core.JsonGenerationException
 import com.fasterxml.jackson.databind.JsonMappingException
 import com.fasterxml.jackson.databind.ObjectMapper
-import th.ac.kmitl.it.soa.group8.einvoice.model.ETaxInvoice
 import org.json.simple.parser.JSONParser
 import org.json.simple.JSONObject
 import java.io.FileReader
