@@ -16,7 +16,7 @@ open class JsonConverter (){
         val mapper = ObjectMapper()
         mapper.writeValue(System.out, `object`)
         val jsonString = mapper.writeValueAsString(`object`)
-        mapper.writeValue(File("tax_invoices.json"), `object`)
+        mapper.writeValue(File("tax_invoice.json"), `object`)
 
     }
 
