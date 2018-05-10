@@ -16,13 +16,13 @@ open class JsonConverter (){
         val mapper = ObjectMapper()
         mapper.writeValue(System.out, `object`)
         val jsonString = mapper.writeValueAsString(`object`)
-        mapper.writeValue(File("tax_invoice.json"), `object`)
+        mapper.writeValue(File("tax_invoices.json"), `object`)
 
     }
 
-    fun convertJsontoObject(): String {
+    fun convertJsontoObject(text:String): String {
         val parser =  JSONParser()
-        val ob = parser.parse(FileReader("tax_invoice.json"))
+        val ob = parser.parse(FileReader(text))
         val jsonObject = ob as JSONObject
         val person = ob.get("buyer").toString()
         return person
