@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.JsonMappingException
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.json.simple.JSONObject
 import org.json.simple.parser.JSONParser
+import th.ac.kmitl.it.soa.group8.model.Seller
 
 import java.io.FileReader
 
@@ -20,11 +21,10 @@ open class JsonConverter (){
 
     }
 
-    fun convertJsontoObject(text:String): String {
+    fun convertJsontoObject(text:String): JSONObject {
         val parser =  JSONParser()
-        val ob = parser.parse(FileReader(text))
-        val jsonObject = ob as JSONObject
-        val person = ob.get("id").toString()
+        val getJson = parser.parse(FileReader(text))
+        val person = getJson as JSONObject
         return person
     }
 }
