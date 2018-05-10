@@ -8,7 +8,6 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import org.json.simple.JSONObject
 import org.json.simple.parser.JSONParser
 import th.ac.kmitl.it.soa.group8.model.Seller
-
 import java.io.FileReader
 
 open class JsonConverter (){
