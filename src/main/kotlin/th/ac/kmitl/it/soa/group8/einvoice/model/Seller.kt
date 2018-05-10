@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group8.einvoice.model
+package th.ac.kmitl.it.soa.group8.model
 
 class Seller (val id: String,
               val globalID: String,

@@ -5,7 +5,7 @@ import java.io.IOException
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
 import th.ac.kmitl.it.soa.group8.einvoice.converter.JsonConverter
-import th.ac.kmitl.it.soa.group8.einvoice.model.Seller
+import th.ac.kmitl.it.soa.group8.model.Seller
 
 
 
