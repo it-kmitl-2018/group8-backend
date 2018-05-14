@@ -4,18 +4,12 @@ import com.google.gson.Gson
 import org.springframework.web.bind.annotation.*
 import th.ac.kmitl.it.soa.group8.model.ETaxInvoice
 
+@RequestMapping("/etax")
 @RestController
 class ETaxInvoiceInfoController {
 
-    @GetMapping("/etaxinvoice")
-    fun get(): ETaxInvoice {
-        var invoiceFormModel = ETaxInvoice("Veronika Ilithyia", "123 New york", "Radhika Seetha", "54345 Thailand", "Car part",
-                12345)
-        return invoiceFormModel
-    }
-
     @CrossOrigin(origins = ["http://localhost:8080"])
-    @PostMapping("/etaxinvoice")
+    @PostMapping("/invoice")
     @ResponseBody
     fun post(@RequestBody data: String): String {
         var gson = Gson()
